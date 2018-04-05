@@ -1,0 +1,11 @@
+node_modules
+*.log
+*.map
+*.md
+*.iml
+nodemon.json
+server.js
+.happypack
+.idea
+flow-typed/npm
+Dockerfile

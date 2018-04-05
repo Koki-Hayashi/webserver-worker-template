@@ -1,0 +1,15 @@
+node_modules
+*.log
+*.map
+*.md
+*.iml
+nodemon.json
+server.js
+public/js/
+public/css/
+public/img/uploads/*
+.happypack
+.idea
+flow-typed/npm
+!.gitkeep
+Dockerfile

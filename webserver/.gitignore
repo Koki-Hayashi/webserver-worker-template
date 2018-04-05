@@ -1,0 +1,30 @@
+#intellij
+.idea/
+*.iml
+
+# webpack 
+public/js/*
+public/spa.html
+server.js*
+.happypack
+
+# log
+*.log
+
+# node
+npm-debug.log
+node_modules/*
+
+# css
+public/css
+
+#flow
+flow-typed/*
+
+#img
+*.jpg
+*.gif
+*.png
+
+#firebase
+*firebase*.json

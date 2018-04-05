@@ -1,0 +1,31 @@
+.dashboard-setup-row {
+	@extend .table__row;
+	border-bottom: 1px solid $mid-gray;
+	color: $dark-gray;
+	text-align: center;
+
+	&__cell{
+		@extend .table__cell;
+		padding: 10px 0;
+		vertical-align: middle;
+		border-bottom: 1px solid gray;
+	}
+
+	&__img {
+		width: 100px;
+		height: 100px;
+	}
+
+	&__edit {
+		display: flex;
+	}
+
+	&__btn-wrapper {
+		display: flex;
+		justify-content: center;
+	}
+
+	&__btn {
+		@extend %square-gray-btn;
+	}
+}

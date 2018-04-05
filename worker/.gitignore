@@ -1,0 +1,20 @@
+#intellij
+.idea/
+*.iml
+
+# webpack 
+server.js*
+.happypack
+
+# log
+*.log
+
+# node
+npm-debug.log
+node_modules/*
+
+#flow
+flow-typed/*
+
+#firebase
+*firebase*.json

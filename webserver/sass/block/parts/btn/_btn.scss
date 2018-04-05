@@ -1,0 +1,56 @@
+%round-gray-btn {
+	@extend %round-btn;
+	@extend %gray-btn;
+}
+
+%square-gray-btn {
+	@extend %square-btn;
+	@extend %gray-btn;
+}
+
+%square-active-gray-btn {
+	@extend %square-btn;
+	@extend %gray-btn;
+}
+
+%square-inactive-gray-btn {
+	@extend %square-btn;
+	@extend %gray-inactive-btn;
+}
+
+%gray-inactive-btn {
+	background-color: $light-gray;
+	color: $white;
+	pointer-events:none;
+}
+
+%gray-btn {
+	background-color: $gray;
+	color: $white;
+
+	&:hover {
+		background: $dark-gray;
+	}
+}
+
+%square-btn {
+	font-weight: $bold;
+	font-size: 16px;
+	border-radius: 10px;
+	text-align: center;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	cursor: pointer;
+}
+
+%round-btn {
+	font-weight: $bold;
+	cursor: pointer;
+	font-size: 16px;
+	border-radius: 100px;
+	text-align: center;
+	display: flex;
+	align-items: center;
+	justify-content: center
+}

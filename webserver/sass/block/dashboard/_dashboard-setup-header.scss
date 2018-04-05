@@ -1,0 +1,11 @@
+.dashboard-setup-header {
+	@extend .header__row;
+	border-bottom: 1px solid $mid-gray;
+	color: $dark-gray;
+	text-align: center;
+
+	&__cell {
+		@extend .header__cell;
+		border-bottom: 1px solid gray;
+	}
+}

@@ -1,0 +1,24 @@
+.round {
+	border-radius: 10px;
+}
+
+.round-top {
+	border-radius: 10px 10px 0 0;
+}
+
+.round-bottom {
+	border-radius: 0 0 10px 10px;
+}
+
+.round-top.round-bottom {
+	border-radius: 10px;
+}
+
+.round-left {
+	border-radius: 10px 0 0 10px;
+}
+
+.round-right {
+	border-radius: 0 10px 10px 0;
+}
+

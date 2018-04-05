@@ -1,0 +1,50 @@
+.upload {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  &__img-wrapper {
+    text-align: center;
+    vertical-align: middle;
+  }
+
+  &__img {
+    @extend %img-base;
+  }
+
+  &__img-loading {
+    @extend %img-base;
+    opacity: 0.3;
+  }
+
+  &__loader-wrapper {
+    position: relative;
+    top: -120px;
+  }
+
+  &__loader {
+    @extend %loader_base;
+    margin: auto auto;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    border: 16px solid $mid-gray;
+    border-top: 16px solid $navy;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px !important;
+  }
+
+  &__btn-wrapper {
+    display: flex;
+    margin-top: 50px;
+  }
+}
+
+%img-base {
+  margin-top: 150px;
+  object-fit: cover;
+  width: 250px;
+  height: auto;
+}

@@ -1,0 +1,6 @@
+**/bin
+**/flow-typed
+**/public
+**/.git
+**/.**
+routes.js

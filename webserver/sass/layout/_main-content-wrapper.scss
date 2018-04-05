@@ -1,0 +1,28 @@
+.main-content-wrapper {
+  margin-right: 10px;
+  overflow-y: auto;
+  height: 99%;
+}
+
+.main-content-loader-wrapper {
+  height: 90%;
+  display: flex;
+}
+
+.main-content-loader {
+  @extend %loader_base;
+  margin: auto auto;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  border: 16px solid $mid-gray;
+  border-top: 16px solid $navy;
+  border-radius: 50%;
+  width: 20px;
+  height: 20px !important;
+}
+
+.main-content {
+  height: 90%;
+}

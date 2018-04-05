@@ -1,0 +1,18 @@
+%loader {
+	@extend %loader_base;
+	border: 8px solid $mid-gray;
+	border-top: 8px solid $navy;
+	border-radius: 50%;
+	width: 10px;
+	height: 10px;
+}
+
+
+@keyframes spin {
+	0% { transform: rotate(0deg); }
+	100% { transform: rotate(360deg); }
+}
+
+%loader_base {
+	animation: spin 1s cubic-bezier(0.39, 0.58, 0.57, 1) infinite;
+}

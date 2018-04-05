@@ -1,0 +1,16 @@
+.content-header {
+	grid-area: content-header;
+	margin-left: 15px;
+	border-bottom: 1px solid $mid-gray;
+
+	&__title {
+		margin-top: 15px;
+		font-size: 32px;
+		color: $dark-gray;
+	}
+
+	&__desc {
+		padding: 2px;
+		color: $gray
+	}
+}

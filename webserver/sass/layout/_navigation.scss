@@ -1,0 +1,22 @@
+.navigation {
+	display: flex;
+	flex-direction: column;
+	margin-top: 20px;
+	font-weight: $bold;
+	color: $dark-gray;
+	font-size: 18px;
+
+	&__menu {
+		cursor: pointer;
+		font-weight: $bold;
+		height: 35px;
+		color: $dark-gray;
+		font-size: 20px;
+		padding: 14px 0 0 22px;
+
+		&:hover {
+			background-color: $mid-gray;
+			text-decoration: none;
+		}
+	}
+}

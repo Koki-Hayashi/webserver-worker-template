@@ -1,0 +1,29 @@
+@mixin placeholder {
+	&:placeholder-shown {
+		@content
+	}
+	&::-webkit-input-placeholder {
+		@content
+	}
+	&:-moz-placeholder {
+		opacity: 1;
+		@content
+	}
+	&::-moz-placeholder {
+		opacity: 1;
+		@content
+	}
+	&:-ms-input-placeholder {
+		@content
+	}
+}
+
+.error {
+	color: $error;
+
+	@include placeholder {
+		color: $error;
+	}
+
+}
+

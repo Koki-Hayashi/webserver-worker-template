@@ -1,0 +1,13 @@
+webserver:
+  build: ./webserver
+  container_name: webserver
+  volumes: 
+   - /tmp/img:/app/public/img/uploads
+
+worker:
+  build: ./worker
+  container_name: worker
+  links : 
+   - webserver
+  volumes_from:
+   - webserver

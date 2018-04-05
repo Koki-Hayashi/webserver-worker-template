@@ -1,0 +1,33 @@
+.table {
+	display: table;
+	width: 100%;
+
+	&__header {
+		display: table-header-group;
+	}
+
+
+	&__body {
+		display: table-row-group;
+	}
+
+	&__row {
+		display: table-row;
+	}
+
+	&__cell {
+		display: table-cell;
+	}
+}
+
+.header {
+	&__row {
+		display: table-row;
+	}
+
+	&__cell {
+		display: table-cell;
+	}
+}
+
+

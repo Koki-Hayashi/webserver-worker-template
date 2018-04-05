@@ -1,0 +1,22 @@
+%round-text-input {
+	@extend %text-input;
+	@extend %round-input;
+}
+
+%square-text-input {
+	@extend %text-input;
+	@extend %square-input;
+}
+
+%round-input {
+	border-radius: 45px;
+}
+
+%square-input {
+	border-radius: 5px;
+}
+
+%text-input {
+	border: 1px solid $mid-gray;
+	padding: 5px;
+}
